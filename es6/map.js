@@ -112,10 +112,10 @@ const award = students.map((student) => {
       award_score: student.exam + student.test+10,
       
     };
-    return 
+    
   } else {
     console.log(`congrats on new scores`)
-     return {
+    return {
        award_score: student.exam + student.test - 10,
      };
   }
